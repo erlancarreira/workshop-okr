@@ -1,0 +1,32 @@
+.rodape {
+    &__left {
+        p {
+            float: left;
+            font-family: $padrao;
+            font-size: 14px;
+            font-weight: 300; 
+            line-height: 4rem;
+        }
+       
+    }
+
+    &__right {
+        a {
+            float: right;
+            font-family: $padrao;
+            font-size: 14px;
+            font-weight: 300; 
+            color: $color-black;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        a:hover {
+            background-color: $color-black;
+            color: $color-white;
+            border-radius: 5px;
+
+        }
+       
+    }
+}

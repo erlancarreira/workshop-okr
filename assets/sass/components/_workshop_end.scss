@@ -1,0 +1,15 @@
+.workshop_end {
+    &__title {
+        h2 {
+            font-family: $padrao;
+            font-size: 21px;
+            font-weight: 300; 
+            color: $color-white;
+        }   
+    }
+    
+    &__img {
+        display: inline;
+        border: solid 9px $color-white;
+    }
+} 

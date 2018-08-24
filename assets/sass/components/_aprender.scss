@@ -1,0 +1,41 @@
+.aprender {
+    color: $color-white;
+
+    &__title {
+        font-family: $padrao;
+        font-size: 30px; 
+    }
+
+    &__lista {
+    
+        ul ol {
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+        }
+    } 
+    
+    &__horario {
+        font-family: $padrao;
+        font-size: 18px; 
+        font-weight: 300;
+        
+    }
+
+    &__local {
+        h5, p {
+            font-family: $padrao;
+            font-size: 18px; 
+            font-weight: 300;
+            
+        }  
+    }
+
+    &__fim {
+        p {
+            font-family: $padrao;
+            font-size: x-large; 
+            font-weight: 300;
+           
+        }
+    }   
+}

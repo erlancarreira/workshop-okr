@@ -1,0 +1,22 @@
+.valor {
+    text-align: center;
+    
+    &__title {
+             
+        h5 {
+           font-family: $padrao;
+           font-size: 36px;
+           font-weight: 300;
+        }
+
+        strike {
+            color: #0052A5;
+        }
+
+        p {
+            font-family: $padrao;
+            font-size: 24px;
+            font-weight: 300;            
+        }
+    }
+}

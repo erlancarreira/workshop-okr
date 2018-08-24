@@ -1,0 +1,43 @@
+.button {
+    margin: 40px auto;
+
+    &__btn {
+        display: inline-block;
+        padding: 6px 35px;
+        margin: 0 auto;
+        border-radius: 16px;
+        background-color: #1a8883;
+        font-family: $padrao;
+        font-size: 35px; 
+        text-decoration: none;
+        text-shadow: 0 1px 0 #000;        
+        color: $color-white;
+        cursor: pointer; 
+        
+        &:focus {
+            outline: none; 
+            box-shadow: none;
+        }
+       
+        &:hover {
+           transition: all .3s; 
+           opacity: .8; 
+           color: $color-white;
+           text-decoration: none;  
+        }
+
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    .button {
+        margin: 20px auto;
+    
+        &__btn {
+           font-size: 20px;               
+        }
+    }
+}
+
+
