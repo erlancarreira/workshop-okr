@@ -1,1 +1,1 @@
-Projeto Landing Page Thomaz Ribas - Workshop OKR
+Projeto Landing Page | Thomaz Ribas - Workshop OKR
